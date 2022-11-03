@@ -14,6 +14,8 @@ public class Demo {
 		driver.get("https://chromedriver.chromium.org/");
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
+		System.out.println("manikanta");
+		System.out.println("mm");
 		driver.close();
 		
 
